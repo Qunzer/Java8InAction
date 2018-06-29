@@ -8,7 +8,7 @@ public class ExecuteAround {
         // method we want to refactor to make more flexible
         String result = processFileLimited();
         System.out.println(result);
-
+		//  环绕执行的一种场景
         System.out.println("---");
 
 		String oneLine = processFile((BufferedReader b) -> b.readLine());
