@@ -6,6 +6,14 @@ import java.util.stream.*;
 import java.nio.charset.Charset;
 import java.nio.file.*;
 
+/**
+ * stream的创建方式
+ * 1.Stream.of
+ * 2.Arrays.stream
+ * 3.collection的stream方法
+ * 4.Stream.iterate
+ * 5.Stream.generate
+ */
 public class BuildingStreams {
 
     public static void main(String...args) throws Exception{
